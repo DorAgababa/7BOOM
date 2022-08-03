@@ -1,7 +1,0 @@
-module MODSEVEN(ENABLE ,NUM ,RES);
-	input ENABLE;
-	input [7:0] NUM;
-	output RES;
-	assign RES = ENABLE & ((NUM%7)==0) & (NUM != 0);
-endmodule
-	
